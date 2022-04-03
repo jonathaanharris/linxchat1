@@ -24,14 +24,13 @@ const Home = () => {
 
   const [indexData, setIndexData] = useState(0);
   const [qty, setQty] = useState(0);
-  console.log(content.data, '===')
-
 
   const onShare = async () => {
     try {
       const result = await Share.share({
         message:
-          `Kaos Polos Berkualitas ${content.data[indexData].color} dengan harga ${content.data[indexData].price} `,
+          `Kaos Polos Berkualitas ${content.data[indexData].color} dengan harga ${content.data[indexData].price} https://expo.dev/@jonathaanharris/linxchat
+          `,
       });
 
 
@@ -182,8 +181,8 @@ const Home = () => {
               Ukuran
             </Text>
             <View style={{ flexDirection: "row", marginTop: 15, marginRight: 15 }}>
-              <TouchableOpacity style={{ backgroundColor: "#02075d", width: 60, paddingVertical: 8, borderRadius: 10, justifyContent: 'center', marginTop: 4, borderColor: '#A9A9A9', borderWidth: 1, marginRight: 10 }}>
-                <Text style={{ fontSize: 11, fontWeight: 'bold', color: 'white', textAlign: 'center', marginVertical: 1 }}>
+              <TouchableOpacity style={{ backgroundColor: "#white", width: 60, paddingVertical: 8, borderRadius: 10, justifyContent: 'center', marginTop: 4, borderColor: '#A9A9A9', borderWidth: 1, marginRight: 10 }}>
+                <Text style={{ fontSize: 11, fontWeight: 'bold', color: 'black', textAlign: 'center', marginVertical: 1 }}>
                   M
                 </Text>
               </TouchableOpacity>
