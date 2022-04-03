@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "price": 79000,
+      "color": "Navy",
+      "image": "https://res.cloudinary.com/jonathaanharis/image/upload/v1648799245/goods_69_441596_1_barn6h.webp"
+    },
+    {
+      "id": 2,
+      "price": 89000,
+      "color": "White",
+      "image": "https://res.cloudinary.com/jonathaanharis/image/upload/v1648799244/goods_00_441596_dceuef.webp"
+    },
+    {
+      "id": 3,
+      "price": 99000,
+      "color": "Blue",
+      "image": "https://res.cloudinary.com/jonathaanharis/image/upload/v1648799246/goods_66_441596_1_qenhpy.webp"
+    }
+  ]
+}
